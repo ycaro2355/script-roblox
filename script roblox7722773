@@ -1,4 +1,4 @@
-print[local Players = game:GetService("Players")
+local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 
 -- 🔹 Pega o ID da textura da skin do jogador "roblox7722773"
@@ -60,4 +60,4 @@ end
 local function clearCoreUI()
 	game:GetService("StarterGui"):SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, false)
 end
-task.delay(1, clearCoreUI)]
+task.delay(1, clearCoreUI)
